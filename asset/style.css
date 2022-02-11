@@ -1,0 +1,67 @@
+.body{
+
+    margin: 0;
+    padding:0;
+}
+.container{
+    
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 20%  20% 20% 20%;
+    background: rgb(10, 10, 70);
+    color: white;
+    
+}
+
+.TEXTE{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Bname{
+    
+    font-size: 30px;
+    font-weight:bold;
+}
+.Name{
+    font-style: italic;
+}
+
+.titre{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.grid-container2 {
+        display:grid;
+        grid-template-columns: 20%  20% 20% 20%;
+        
+    }
+
+    .container2{
+        margin-left: 5%;
+    }
+
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
+.Etude{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Lieux{
+    display: flex;
+    flex-direction: column;
+}
+
